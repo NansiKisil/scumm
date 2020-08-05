@@ -1,0 +1,44 @@
+body{
+background-color:lightgrey;
+}
+div.left{
+background-color: rgb(144, 144, 144);
+display:block;
+float:left;
+width: 120px;
+height: 405px;
+border: 5px grey;
+border-collapse:collapse;
+border-radius:10px;
+margin: 0px 20px 0px 90px;
+padding: 10px 10px;
+box-shadow: 7px 7px 5px rgb(0,0,0);
+}
+div.right{
+background-color: rgb(144, 144, 144);
+display:block;
+float: left;
+text-align: right;
+width: 120px;
+height: 405px;
+border: 5px solid grey;
+border-collapse:collapse;
+border-radius:10px;
+padding: 10px 10px;
+margin: -511px 0px 0px 1080px;
+box-shadow: 7px 7px 5px rgb(0,0,0);
+}
+div.center{
+display:block;
+margin: 0px 33px 0px 33px;
+float: left;
+}
+#park{
+border: 5px solid grey;
+border-collapse:collapse;
+border-radius:10px;
+box-shadow: 7px 7px 5px rgb(0,0,0);
+}
+#parking{
+margin: 0px 14px 0px 0px;
+}

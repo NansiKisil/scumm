@@ -1,0 +1,13 @@
+body{
+background-color: lightgrey;
+}
+div.enter{
+display: block;
+float: center;
+margin: 9px 0px 0px 142px;
+}
+#im{
+border: 5px solid grey;
+border-radius: 8px;
+box-shadow: 7px 7px 5px rgb(0,0,0);
+}
