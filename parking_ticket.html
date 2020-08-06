@@ -5,20 +5,43 @@
 <link rel="stylesheet" href="parking_ticket.css">
 </head>
 <body>
+<div class="day">
+<div class="header">
+<img id="day_of" src="./sources/day_of_the_42.png" alt="day_of_the_42">
+<img id="loupe" src="./sources/loupe.png" alt="loupe">
+<div class="sources">
+<a href="https://www.disneyinternational.com/#panel1h">
+<img id="reload" src="./sources/reload.png" alt="reload" title="Start from the beginning" width="20">
+</a>
+<a href="https://www.relaischateaux.com/">
+<img id="close" src="./sources/close.gif" alt="close" title="Disconnect">
+</a>
+</div>
+</div>
+</div>
+<div class="main">
+
 	<div class="left">
+		<a href="./parking_card.html">
+			<img id="parking" src="./sources/istockphoto-1243262898-1024x1024.jpg" alt="card" title="Get the card" width=70px;>
 	</div>
-	
 	<div class="park">
-		<img id="park" src="./sources/5ba1e53142866.image.jpg" alt="parking" usemap="#workmap" width="800" height="497">
+		<img id="park" src="./sources/imgonline-com-ua-Resize-c5hFo5ZVwlp3zpv8.jpg" alt="parking" usemap="#workmap" width="1000" height="566">
 		<map id="workmap" name="workmap">
-			<area shape="poly" coords="95,495,800,359,798,492" alt="park" href="./parking1.html">
+			<area shape="poly" coords="112,565,917,419,1000,423,1000,565" alt="park" href="https://en.wikipedia.org/wiki/Driving_in_the_United_States">
 		</map>
 	</div>
-	
-<div class="right">
-		<a href="./doft.html">
-			<img id="parking" src="./sources/89a0e8781f085de5ef2862ee46a65024.png" alt="ticket" title="Get parking ticket" width=90px;>
-		</a>
+	<div class="right">
+		<img id="ticket" src="./sources/imgonline-com-ua-Resize-X7N2gVgHJn.jpg" alt="ticket" title="Now you have a ticket">
+	</div>
+<div class="message">
+<p></p>
+<form id="block" action="/action_page.php">
+<label for="answer">Now you need to <strong style="font-size:30px">get</strong> the card<br>
+<em>-Tap on the card for get it!</em></label><br>
+<input type="text" id="amswer" name="answer" size="40">
+<input type="submit" value="Responde">
+</form>
 </div>
 </body>
 </html>

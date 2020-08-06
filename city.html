@@ -5,12 +5,44 @@
 <link rel="stylesheet" href="city.css">
 </head>
 <body>
+<div class="day">
+<div class="header">
+<img id="day_of" src="./sources/day_of_the_42.png" alt="day_of_the_42">
+<img id="loupe" src="./sources/loupe.png" alt="loupe">
+<div class="sources">
+<a href="https://www.disneyinternational.com/#panel1h">
+<img id="reload" src="./sources/reload.png" alt="reload" title="Start from the beginning" width="20">
+</a>
+<a href="https://www.relaischateaux.com/">
+<img id="close" src="./sources/close.gif" alt="close" title="Disconnect">
+</a>
+</div>
+</div>
+</div>
+<div class="main">
+<div class="left">
+<img id="cart" src="./sources/Basket-Cart-close-512.png" alt="basket" title="It`s empty">
+</div>
 	<div class="city">
-		<img src="./sources/imgonline-com-ua-Resize-TwssSwYcI9XOX.jpg" alt="city" usemap="#workmap" width="1323" height="873">
+		<img id="town" src="./sources/imgonline-com-ua-Resize-j9TMqEmouuuby.jpg" alt="city" usemap="#workmap" width="1000" height="566">
 		<map id="workmap" name="workmap">
-			<area shape="poly" coords="2,722,150,705,203,690,333,624,437,561,494,525,521,485,525,471,475,411,512,411,592,450,633,474,691,539,908,646,979,775,947,809,1,758" alt="city" title="Exit" href="https://www.google.com/webhp?hl=ru&sa=X&ved=0ahUKEwiF6prE0fLqAhUllIsKHdzRDMIQPAgD">
-			<area shape="poly" coords="1079,550,1138,550,1141,666,1111,735,1078,666" alt="back" title="Back to game" href="./scumm.html">
+			<area shape="poly" coords="0,471,120,459,381,340,399,308,363,269,394,267,499,310,557,348,679,414,728,518,6,492" alt="city" title="Exit" href="https://www.google.com/webhp?hl=ru&sa=X&ved=0ahUKEwiF6prE0fLqAhUllIsKHdzRDMIQPAgD">
+			<area shape="poly" coords="815,357,862,357,864,434,840,478,815,432" alt="back" title="Back to game" href="./scumm.html">
 		</map>
 	</div>
+<div class="right">
+<img id="basket" src="./sources/Basket-Cart-close-512.png" alt="basket" title="It`s empty">
+</div>
+</div>
+<div class="message">
+<p></p>
+<form id="block" action="/action_page.php">
+<label for="answer">You <strong style="font-size:30px">left</strong> the school teritory.<br>
+You can continue by tapping on the road.<br>
+<em>-For get back to school tap on the sign!</em></label><br>
+<input type="text" id="amswer" name="answer" size="40">
+<input type="submit" value="Repondre">
+</form>
+</div>
 </body>
 </html>

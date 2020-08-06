@@ -88,8 +88,7 @@ box-shadow: 7px 7px 5px rgb(0,0,0);
 #parking{
 width: 69px;
 height: 69px;
-margin: 3px 23px;
-padding: 1px 1px;
+margin: -1px 26px;
 }
 div.message{
 background-color: rgb(136,255,137);
